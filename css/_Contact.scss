@@ -1,0 +1,162 @@
+#contact {
+    width: 100%;
+    padding: 0 2rem;
+    padding-bottom: 2rem;
+    transition: .2s linear;
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        margin: 0;
+    }
+    .parent {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+
+        .form {
+            width: 50%;
+
+            .input-field {
+                margin-bottom: 2rem;
+            }
+
+            label {
+                display: block;
+                color: #333;
+                font-size: 1.5rem;
+            }
+
+            input,
+            textarea {
+                border: none;
+                border-bottom: 1px solid #333;
+                outline: none;
+                width: 100%;
+                font-size: 1.2rem;
+                background-color: #eee;
+            }
+
+            textarea {
+                height: 80px;
+            }
+
+            input:focus,textarea:focus {
+                border-bottom: 2px solid #1e81b0;
+            }
+
+            .input-field {
+                button {
+                    color: #1e81b0;
+                    padding: .5rem 2rem;
+               
+                    outline: none;
+                    cursor: pointer;
+                    border: 1px solid #1e81b0;
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    transition: all linear 0.4s;
+                    border-radius: .5rem;&:hover{
+                        color: #fff;
+                        background-color: #1e81b0;
+                    }
+                }
+            }
+        }
+        .img{
+            text-align: center;
+            width: 50%;
+            img{
+                width: 80%;
+            }
+        }
+    }
+
+    .titel {
+        position: relative;
+
+        h1 {
+            flex: 0 0 100%;
+            max-width: 100%;
+            text-transform: capitalize;
+            color: #333;
+            font-weight: 700;
+            font-size: 3rem;
+
+            &::before {
+                content: "";
+                height: 4px;
+                width: 200px;
+                background-color: #1e81b0;
+                position: absolute;
+                top: 100%;
+                left: 0rem;
+            }
+
+            &::after {
+                content: "";
+                height: 4px;
+                width: 100px;
+                background-color: #1e81b0;
+                position: absolute;
+                top: 100%;
+                left: 0rem;
+                margin-top: 10px;
+
+            }
+        }
+    }
+
+
+
+
+}
+
+@media (max-width: 700px) {
+
+   #contact .parent {
+        width: 100%;
+
+        .form {
+            width: 100%;
+            label {
+           
+                font-size: 1rem;
+            }
+
+            input,
+            textarea {
+              
+                font-size: 1rem;
+              
+            }
+        }
+        .img{
+            display: none;
+        }
+    }
+}
+@media (max-width: 7900px) {
+
+    #contact .parent {
+       
+ 
+         .form {
+           
+             label {
+            
+                 font-size: 1rem;
+             }
+ 
+             input,
+             textarea {
+               
+                 font-size: 1rem;
+               
+             }
+         }
+        
+     }
+ }
