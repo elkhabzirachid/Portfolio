@@ -408,16 +408,16 @@ header div {
   border-radius: inherit;
 }
 
-#protofolio {
+#portfolio {
   width: 100%;
   padding: 0 2rem;
   padding-bottom: 2rem;
   transition: 0.2s linear;
 }
-#protofolio .titel {
+#portfolio .titel {
   position: relative;
 }
-#protofolio .titel h1 {
+#portfolio .titel h1 {
   flex: 0 0 100%;
   max-width: 100%;
   text-transform: capitalize;
@@ -425,7 +425,7 @@ header div {
   font-weight: 700;
   font-size: 3rem;
 }
-#protofolio .titel h1::before {
+#portfolio .titel h1::before {
   content: "";
   height: 4px;
   width: 200px;
@@ -434,7 +434,7 @@ header div {
   top: 100%;
   left: 0rem;
 }
-#protofolio .titel h1::after {
+#portfolio .titel h1::after {
   content: "";
   height: 4px;
   width: 100px;
@@ -444,37 +444,37 @@ header div {
   left: 0rem;
   margin-top: 10px;
 }
-#protofolio .box-container {
+#portfolio .box-container {
   margin-top: 1.9rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 15px;
 }
-#protofolio .box-container .box {
+#portfolio .box-container .box {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   background: #fff;
   text-align: center;
   padding: 20px;
 }
-#protofolio .box-container .box:hover {
+#portfolio .box-container .box:hover {
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
   transform: scale(1);
 }
-#protofolio .box-container img {
+#portfolio .box-container img {
   height: 150px;
 }
-#protofolio .box-container h3 {
+#portfolio .box-container h3 {
   color: #444;
   font-size: 22px;
   padding: 10px 0;
 }
-#protofolio .box-container p {
+#portfolio .box-container p {
   color: #777;
   font-size: 15px;
   line-height: 1.8;
 }
-#protofolio .box-container .btn {
+#portfolio .box-container .btn {
   margin-top: 10px;
   display: inline-block;
   background: #1e81b0;
@@ -485,11 +485,11 @@ header div {
   text-decoration: none;
   text-transform: capitalize;
 }
-#protofolio .box-container .btn:hover {
+#portfolio .box-container .btn:hover {
   letter-spacing: 1px;
 }
 @media (max-width: 768px) {
-  #protofolio .container {
+  #portfolio .container {
     padding: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
