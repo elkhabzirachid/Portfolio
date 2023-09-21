@@ -3,10 +3,9 @@ let nav = document.getElementById("nav")
 menu.addEventListener("click", () => {
     nav.classList.toggle("active");
 })
-window.onscroll = () => {
+document.querySelector(".body").addEventListener("scroll", () => {
     nav.classList.remove('active');
-}
-
+})
 // send message
 document.addEventListener("DOMContentLoaded", function () {
     const contactForm = document.getElementById("contactForm");
