@@ -3,6 +3,7 @@
     padding: 0 2rem;
     padding-bottom: 2rem;
     transition: .2s linear;
+
     input[type=number]::-webkit-inner-spin-button,
     input[type=number]::-webkit-outer-spin-button {
         -webkit-appearance: none;
@@ -10,6 +11,7 @@
         appearance: none;
         margin: 0;
     }
+
     .parent {
         display: flex;
         justify-content: space-between;
@@ -43,7 +45,8 @@
                 height: 80px;
             }
 
-            input:focus,textarea:focus {
+            input:focus,
+            textarea:focus {
                 border-bottom: 2px solid #1e81b0;
             }
 
@@ -51,24 +54,27 @@
                 button {
                     color: #1e81b0;
                     padding: .5rem 2rem;
-               
                     outline: none;
                     cursor: pointer;
                     border: 1px solid #1e81b0;
                     font-size: 1.2rem;
                     font-weight: 600;
                     transition: all linear 0.4s;
-                    border-radius: .5rem;&:hover{
+                    border-radius: .5rem;
+
+                    &:hover {
                         color: #fff;
                         background-color: #1e81b0;
                     }
                 }
             }
         }
-        .img{
+
+        .img {
             text-align: center;
             width: 50%;
-            img{
+
+            img {
                 width: 80%;
             }
         }
@@ -116,47 +122,64 @@
 
 @media (max-width: 700px) {
 
-   #contact .parent {
+    #contact .parent {
         width: 100%;
 
         .form {
             width: 100%;
+
             label {
-           
+
                 font-size: 1rem;
             }
 
             input,
             textarea {
-              
+
                 font-size: 1rem;
-              
+
+            }
+
+            .input-field {
+                button {
+                    margin-top: 10px;
+                    display: inline-block;
+                    background: #1e81b0;
+                    color: #fff;
+                    font-size: 17px;
+                    border-radius: 5px;
+                    padding: 8px 25px;
+                    text-decoration: none;
+                    text-transform: capitalize;
+                }
             }
         }
-        .img{
+
+        .img {
             display: none;
         }
     }
 }
+
 @media (max-width: 7900px) {
 
     #contact .parent {
-       
- 
-         .form {
-           
-             label {
-            
-                 font-size: 1rem;
-             }
- 
-             input,
-             textarea {
-               
-                 font-size: 1rem;
-               
-             }
-         }
-        
-     }
- }
+
+
+        .form {
+
+            label {
+
+                font-size: 1rem;
+            }
+
+            input,
+            textarea {
+
+                font-size: 1rem;
+
+            }
+        }
+
+    }
+}

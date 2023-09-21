@@ -125,7 +125,8 @@ article {
 #contact .parent .form textarea {
   height: 80px;
 }
-#contact .parent .form input:focus, #contact .parent .form textarea:focus {
+#contact .parent .form input:focus,
+#contact .parent .form textarea:focus {
   border-bottom: 2px solid #1e81b0;
 }
 #contact .parent .form .input-field button {
@@ -194,6 +195,17 @@ article {
   #contact .parent .form input,
   #contact .parent .form textarea {
     font-size: 1rem;
+  }
+  #contact .parent .form .input-field button {
+    margin-top: 10px;
+    display: inline-block;
+    background: #1e81b0;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+    text-decoration: none;
+    text-transform: capitalize;
   }
   #contact .parent .img {
     display: none;
